@@ -1,0 +1,21 @@
+I made a new branch, "2019-0309" (named after the date).
+I made a new text file, "experiment" with random text.
+I added and  commit  the "experiment" file.
+
+I  checkout  master branch, "master".
+I made a new text file, "experiment" with different random text.
+I added and  commit  the "experiment" file in "master" branch.
+
+I  checkout  "2019-0309" branch.
+I  merge "2019-0309" and got message like 'nothing to merge'.
+
+I  checkout  "master" branch.
+I  merge  "2019-0309" and got message like 'conflict - fatal - resolve'.
+
+Intending to edit the two files to be similar, I try to  checkout  "2019-0309" but it won't change branches, and gives message "fix conflict first".
+
+I used  git reset --merge  to stop the  merge  process.  That worked -- thanks stackoverflow.  (And now I need to learn "git fetch origin" and "git reset origin" and "git rebase origin".)
+
+I  git rm experiment  to remove the "experiment" file from the "master" branch.  Now I'm typing what I did in the "experiment" file in the "2019-0309" branch.  But I'm going to rename this file:  learning-git-2019-0309.txt.
+
+The thing that amazes me is that the "experiment" file existed in two versions in the same directory.  The version I saw depended on what branch I had checked out ("master" or "2019-0309").  That's amazing.  I guess it's some kind of temp file magic.
