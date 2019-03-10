@@ -14,3 +14,14 @@ print "This will run."
 #      you know what it's called.
 # Yes; comment (characters following the # are not processed by the 
 # python interpreter).
+
+# SD2. Take your ex2.py file and review each line going backward.  Start at
+#      the last line, and check each word in reverse.
+# Done.
+
+# SD3. Did you find more mistakes?  Fix them.
+# No mistakes this time 'round.
+
+# SD4. Read what you typed previously out loud, including saying each
+#      character by its name.  Did you find more mistakes?  Fix them.
+# Done.  Reading character-by-character aloud is actually kind of tiring.
