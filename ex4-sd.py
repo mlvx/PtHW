@@ -20,7 +20,7 @@ print "We need to put about", average_passengers_per_car, "in each car."
 
 # Study Drills
 
-# SD0.  When Shaw first wrote this program, there was a typo, and the errmsg was:
+# Non-numbered SD.  When Shaw first wrote this program, there was a typo, and the errmsg was:
 # Traceback (most recent call last):
 #        File "ex4.py", line 8, in <module>
 #          average_passengers_per_car = car_pool_capacity / passenger
@@ -52,3 +52,8 @@ print "We need to put about", average_passengers_per_car, "in each car."
 # which is incorrect.  Line 11 has the corrected value:
 # "average_passengers_per_car = passengers / cars_driven" which yields "about 3 in each car".
 
+# SD1:  See ex4-sd1.py (variables -- floating-point?).
+# SD2:  See ex4-sd2.py (more about floating-point numbers).
+# SD3:  See ex4-sd3.py (comments above variable assignments -- unexpectedly interesting).
+# SD4:  Name of "=" char; and  =  assigns a label to a var.  No separate file.
+# SD5:  Name of "_" char.  No separate file.
