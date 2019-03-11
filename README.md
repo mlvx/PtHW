@@ -7,4 +7,4 @@ The classic by Zed Shaw.  There will be code!
 2019-03-08T04:00-08:00  I should have timestamped; will do hence.  String in Vim is :r!date -I'minutes' .  Finished ex1 and ex2, with study drills.
 2019-03-09  Did ex3 with study drills (math operations); forgot to timestamp.  Had some hands-on practice merging branches with conflicts.
 2019-03-10T14:29-07:00  Working on LPtHW, exercise 4, intro to variables.  Using Vim's "ctrl-r" autocomplete features to get var names right -- so nice.
-
+2019-03-10T17:22-07:00  Done for today.  Interesting -- choosing whether variables are integer or floating-point can have repercussions later.
