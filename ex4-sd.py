@@ -57,3 +57,6 @@ print "We need to put about", average_passengers_per_car, "in each car."
 # SD3:  See ex4-sd3.py (comments above variable assignments -- unexpectedly interesting).
 # SD4:  Name of "=" char; and  =  assigns a label to a var.  No separate file.
 # SD5:  Name of "_" char.  No separate file.
+# Sd6:  Use Python interactively as a calculator.  Use variable names to do calculations.
+#       Popular variable names are also i, x, and j.
+# Done.
