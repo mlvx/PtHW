@@ -19,7 +19,7 @@ print "If I add %d, %d, and %d I get %d." % (
 
 # Study Drills
 
-# SD1:  Change all the variables so there isn't the    in front.
+# SD1:  Change all the variables so there isn't the my_ in front.
 # Done.  Too easy, in Vim.
 
 # SD2:  Try more format characters, like %r -- a very useful one.  It's like
@@ -31,5 +31,14 @@ print "If I add %d, %d, and %d I get %d." % (
 # would break the calculation in line 18, but it seems to work fine.
 
 # SD3:  Search online for all the Python format characters.
+
+print '''
+Exercise 5, Study Drill 3:  Search online for all the python format characters.
+
+
+
+
+'''
+
 # SD4:  Write some variables that convert the inches and pounds to cm and kg.
 #       Don't just type in the measurements; work out the math in Python.
