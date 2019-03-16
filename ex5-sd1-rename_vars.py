@@ -19,7 +19,7 @@ print "If I add %d, %d, and %d I get %d." % (
 
 # Study Drills
 
-# SD1:  Change all the variables so there isn't the    in front.
+# SD1:  Change all the variables so there isn't the  my_  in front.
 # Done.  Too easy, in Vim.
 
 # SD2:  Try more format characters, like %r.

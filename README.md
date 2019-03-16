@@ -8,3 +8,5 @@ The classic by Zed Shaw.  There will be code!
 2019-03-09  Did ex3 with study drills (math operations); forgot to timestamp.  Had some hands-on practice merging branches with conflicts.
 2019-03-10T14:29-07:00  Working on LPtHW, exercise 4, intro to variables.  Using Vim's "ctrl-r" autocomplete features to get var names right -- so nice.
 2019-03-10T17:22-07:00  Done for today.  Interesting -- choosing whether variables are integer or floating-point can have repercussions later.
+2019-03-16T04:23-0700	Forgot to timestamp when I started a couple hours ago.  Did ex5-sd3 -- all the format characters.  There actually are several I'd forgotten about, like %u and %U for Unicode, %x and %X for hexadecimal, etc.  Next:  Do ex5-sd4, converting Shaw's measurements into metric.
+
