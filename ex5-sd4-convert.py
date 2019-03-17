@@ -6,9 +6,13 @@ eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 
+# Metric conversions
+height_metric = height * 2.54
+weight_metric = weight / 2.2
+
 print "Let's talk about %r." % name
-print "He's %s inches tall." % height
-print "He's %r pounds heavy." % weight
+print "He's %s inches tall.  Thats about %i centimeters." % (height, round( height * 2.54) )
+print "He's %r pounds heavy, which is about %i kilograms." % (weight, round(weight / 2.2) )
 print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
 print "His teeth are usually %s depending on the coffee." % teeth
@@ -20,16 +24,14 @@ print "If I add %d, %d, and %d I get %d." % (
 # Study Drills
 
 # SD1:  Change all the variables so there isn't the    in front.
-# Done.  Too easy, in Vim.
-
 # SD2:  Try more format characters, like %r -- a very useful one.  It's like
 #       saying "print this no matter what".
-# My recollection is that  %r  is the "raw" format -- accepts numbers or text
-# strings.  I see that, for text strings, it puts quotation marks around the 
-# output; and it seems that numbers get treated as numbers for calculations.
-# What surprises me is line 10, where I changed a %d to %s.  I thought that
-# would break the calculation in line 18, but it seems to work fine.
-
 # SD3:  Search online for all the Python format characters.
 # SD4:  Write some variables that convert the inches and pounds to cm and kg.
 #       Don't just type in the measurements; work out the math in Python.
+# First, I created new variables to hold the metric values; then I realized
+# I could perform the calculation in the print statement -- no need to make
+# new vars.  I didn't like the inches-to-cm result because if Shaw's height
+# is 187.96 cm, you might as well call it 188 cm.  So I ended up looking up
+# the  round()  function.
+
