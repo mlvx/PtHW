@@ -11,7 +11,7 @@ height_metric = height * 2.54
 weight_metric = weight / 2.2
 
 print "Let's talk about %r." % name
-print "He's %s inches tall.  Thats about %i centimeters." % (height, round( height * 2.54) )
+print "He's %s inches tall.  That's about %i centimeters." % (height, round( height * 2.54) )
 print "He's %r pounds heavy, which is about %i kilograms." % (weight, round(weight / 2.2) )
 print "Actually that's not too heavy."
 print "He's got %s eyes and %s hair." % (eyes, hair)
@@ -33,5 +33,5 @@ print "If I add %d, %d, and %d I get %d." % (
 # I could perform the calculation in the print statement -- no need to make
 # new vars.  I didn't like the inches-to-cm result because if Shaw's height
 # is 187.96 cm, you might as well call it 188 cm.  So I ended up looking up
-# the  round()  function.
-
+# the  round()  function.  Which, actually, Shaw mentions in the "Common 
+# Student Questions" section.  
