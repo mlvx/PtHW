@@ -22,4 +22,5 @@ The thing that amazes me is that the "experiment" file existed in two versions i
 
 The current adventure (as of 2019-03-18):  ex6 and ex6-sd were done in branch "2019-0317-ex6", which also is live on GitHub (after I pushed from GitShell).  I'm done with 2019-0317-ex6 -- already merged into master.  So, I'm going to delete branch 2019-0317-ex6.  What will that do to the branch on GitHub?  (I will also put this question in the "learning-git-2019-0309.txt" file.)
 
-So, Git refused to delete the branch bc I had not pushed the most recent commit to GitHub.  (I think.)
+So, Git refused to delete the branch bc I had not pushed the most recent commit to GitHub.  (I think.)  I was editing this file on "master", so could not checkout 2019-0317-ex6 until I'd first committed "master".  On 2019-0317-ex6, I pushed; back to master, I deleted 2019-0317-ex6 locally; it still exists on GitHub.  But it looks like I'll be able to delete it easily, by clicking the red garbage can icon.  I'll have to read up on best ways to manage branches.
+.
