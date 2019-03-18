@@ -19,3 +19,5 @@ I used  git reset --merge  to stop the  merge  process.  That worked -- thanks s
 I  git rm experiment  to remove the "experiment" file from the "master" branch.  Now I'm typing what I did in the "experiment" file in the "2019-0309" branch.  But I'm going to rename this file:  learning-git-2019-0309.txt.
 
 The thing that amazes me is that the "experiment" file existed in two versions in the same directory.  The version I saw depended on what branch I had checked out ("master" or "2019-0309").  That's amazing.  I guess it's some kind of temp file magic.
+
+The current adventure (as of 2019-03-18):  ex6 and ex6-sd were done in branch "2019-0317-ex6", which also is live on GitHub (after I pushed from GitShell).  I'm done with 2019-0317-ex6 -- already merged into master.  So, I'm going to delete branch 2019-0317-ex6.  What will that do to the branch on GitHub?  (I will also put this question in the "learning-git-2019-0309.txt" file.)
