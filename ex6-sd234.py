@@ -33,6 +33,7 @@ Line 10: print "I also said: '%s'." % y
 
 print """
 SD3: Are you sure there are only four places?
+Line 1 doesn't count -- it formats a number via the "decimal" converter.
 Lines 13 and 15 don't count --  "hilarious" is a Boolean, not a string.
 Line 20 doesn't count -- it's a concatenation of two strings, not
 putting one string inside another.
@@ -40,4 +41,9 @@ putting one string inside another.
 
 print """
 SD4: Explain why adding the two strings /w/ and /e/ with /+/ makes a longer string.
+Line 20 -- print w + e -- concatenates two string variables into one ("gluing them
+together", as the Python.org docs say).  The /+/ char signifies concatenation here.
+https://docs.python.org/2.7/tutorial/introduction.html?highlight=concatenate#strings
+Interestingly, other concatenation methods might be better:
+https://softwareengineering.stackexchange.com/questions/304445/why-is-s-better-than-for-concatenation
 """
