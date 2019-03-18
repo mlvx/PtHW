@@ -30,9 +30,13 @@ joke_evaluation = "Isn't that joke so funny?! %r"
 #    with "raw/rep" converter.
 print joke_evaluation % hilarious
 
+# Defines var 'w' as text string.  (W is short for "west", obvsly.)
 w = "This is the left side of..."
+# Defines var 'e' as text string.  (E is short for "east", obvsly.)
 e = "a string with a right side."
 
+# Prints a concatenation of the two text string vars defined just above here.
+#    Note that the output does not have a space between the two vars.
 print w + e 
 
 # Exercise 6 Study Drills
