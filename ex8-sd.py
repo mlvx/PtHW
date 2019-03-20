@@ -26,8 +26,9 @@ print formatter % (True, False, False, True)
 print formatter % (formatter, formatter, formatter, formatter)
 
 # Prints the strings inside the parentheses; prints them one 
-# after another, all one one line, each element surrounded by
-# single quotation marks -- the double quotation marks gone --
+# after another, all one one line, each element (well, three 
+# of the four) surrounded by # single quotation marks -- the 
+# double quotation marks gone (except for the third string) --
 # with a space separating each element.
 print formatter % (
     "I had this thing.",
@@ -63,4 +64,13 @@ Check 4 -- When starting next exercise, review mistakes from
 Will do in future.
 
 Check 5 -- Remember, everyone makes mistakes, including programmers.
-True dat.
+True dat."""
+
+# SD2: Notice that the last line of output uses both single-
+#      quotes and double-quotes for individual strings.  Why?
+# The default quotation mark for strings seems to be the single-
+# quote mark, and that's what's used to surround three of the
+# text strings.  The third (of the four strings) is surrounded
+# by double-quote marks, because the text string itself includes
+# an apostrophe in the contraction "didn't", and the apostrophe
+# is indistinguishable from a single quote-mark.
