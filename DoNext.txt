@@ -1,0 +1,3 @@
+2019-03-21T15:35-07:00
+Done: ex10.py
+Do next: memorize escape sequences (backslash); ex10-sd.py.
