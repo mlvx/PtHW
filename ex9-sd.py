@@ -11,16 +11,19 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 # Prints a text string, followed by a text string stored in 
 # var "days".  Surprisingly, it works even when a  +  replaces
-the comma.
+# the comma.
 print "Here are the days: " , days
 # Prints a text string, followed by a text string stored in 
 # var "months".
 print "Here are the months: ", months
+# Observing the effect of using the "raw/rep" formatter, as
+# mentioned in the "Common Student Questions".
+print "Here are the months: %r" % months
 
 # Text string surrounded by triple-quotemarks -- i.e., the 
-same single-quote or double-quote typed three times makes
-eveything inside the triple-quote a text string; linebreaks 
-are preserved.
+# same single-quote or double-quote typed three times makes
+# eveything inside the triple-quote a text string; linebreaks 
+# are preserved.
 print """
 There's something going on here.
 With the three double-quotes.
