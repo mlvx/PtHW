@@ -41,5 +41,5 @@ raw_input("This will show up as a prompt ")
 #    string.  Ok, this is assuming interactive mode.  Ah, but I see 
 #    that the interpreter more or less enters interactive mode to 
 #    parse a script.
-# Note: to read ‘raw’ input line without interpretation, you can use
+# Note: to read 'raw' input line without interpretation, you can use
 # the built-in function raw_input() 
