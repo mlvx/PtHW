@@ -1,3 +1,3 @@
-2019-03-30T22:49-0700
-Done: ex11-sd2.py
-Do next: ex11-sd3.py
+2019-03-31T04:37-0700
+Done: ex11-sd3.py
+Do next: ex11-sd4.py

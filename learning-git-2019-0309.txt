@@ -23,6 +23,8 @@ The thing that amazes me is that the "experiment" file existed in two versions i
 The current adventure (as of 2019-03-18):  ex6 and ex6-sd were done in branch "2019-0317-ex6", which also is live on GitHub (after I pushed from GitShell).  I'm done with 2019-0317-ex6 -- already merged into master.  So, I'm going to delete branch 2019-0317-ex6.  What will that do to the branch on GitHub?  (I will also put this question in the "learning-git-2019-0309.txt" file.)
 
 So, Git refused to delete the branch bc I had not pushed the most recent commit to GitHub.  (I think.)  I was editing this file on "master", so could not checkout 2019-0317-ex6 until I'd first committed "master".  On 2019-0317-ex6, I pushed; back to master, I deleted 2019-0317-ex6 locally; it still exists on GitHub.  But it looks like I'll be able to delete it easily, by clicking the red garbage can icon.  I'll have to read up on best ways to manage branches.
-.
 
 2019-03-20T01:03-07:00	On the Chromebook, I did Exercise 7, but couldn't push it to GitHub because I didn't have OpenSSH set up.  Working on that.  Meanwhile, I don't want to dup the work, so I'm going to skip the ex7 Study Drills for now, and move on the Gateway to Exercise 8.  This will be good, bc it will give me practice managing multiple branches on different machines.
+
+
+2019-03-31T04:43-0700	This is wild and unexpected.  I have three terminals open:  Git Shell, WSL-Ubuntu, and PowerShell.  I've been using the WSL term to edit LPtHW exercise files, then using the Git Shell term to commit and push.  To my surprise, what I see when I cat or vim a file -- in the PS or WSL terminals -- depends on what branch I'm on in the Git Shell terminal!!!  My mind is blown.  And, I've got a conflict (in the DoNext.txt file) to fix.
