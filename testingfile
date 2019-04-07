@@ -1,0 +1,19 @@
+I'm working on Exercise 12, Study Drill 4.
+I'm supposed to be reading the PyDoc documentation
+on the builtin function "open".  I'm a little 
+sidetracked now, trying to get get "file.readline()"
+to work.
+
+I am trying to use  "bar=file.readline(ex1.py)"  to
+read in some of the ex.py file and store it in the 
+variable called "bar".  I got an error "name 'ex1' 
+is not defined" which makes me think the filename, 
+including a dot, is mucking things up.  (Have to 
+escape punctuation / special characters?)  Hence
+this file, "testingfile", with no dot in the 
+filename.  We'll see what happens. 
+
+Ok, the dot didn't matter; "name 'testingfile' is
+not defined".  Maybe it's supposed to be:
+   bar=testingfile.readline()
+
