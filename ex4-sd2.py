@@ -21,12 +21,13 @@ print "We need to put about", average_passengers_per_car, "in each car."
 # No, because it's used in a multiplication, not a division (line 7).
 
 print '''
-SD2.  Remember that 4.0 is a "floating point" number.  Find out what that means.
+SD2.  Remember that 4.0 is a "floating point" number.  What does that mean?
 
-Reprising ex3-sd.py -- Exercise 3, Study Drill 4.  Computers use binary numbers, not
-the base-ten numbers familiar to us in daily use.  In base-two, many numbers can
-be represented only as approximations.  Floating-Point Arithmetic is a technique
-for improving the answers we get when binary numbers are converted back to decimal.
+Reprising ex3-sd.py -- Exercise 3, Study Drill 4.  Computers use binary
+numbers, not the base-ten numbers familiar to us in daily use.  In base-two,
+many numbers can be represented only as approximations.  Floating-Point
+Arithmetic is a technique for improving the answers we get when binary numbers
+are converted back to decimal.
 https://docs.python.org/2/tutorial/floatingpoint.html
 https://en.wikipedia.org/wiki/Floating-point_arithmetic
 
@@ -34,13 +35,15 @@ For example:  Consider "0.1".  In binary, it's:
 0.0001100110011001100110011001100110011001100110011...
 An infinitely repeating pattern of digits is an approximation.
 
-Consider "0.2 + 0.1".  The computer will translate each into binary, perform the 
-calculation which will yield a binary approximation, and convert that back to 
-decimal for us.
+Consider "0.2 + 0.1".  The computer will translate each into binary, perform
+the calculation which will yield a binary approximation, and convert that back
+to decimal for us.
 
 0.2 + 0.1 = 0.30000000000000004
 
-Luckily for us, Python 2.7 and later, "Python displays a value based on the shortest 
-decimal fraction that rounds correctly back to the true binary value"; so for us it 
-displays:   0.2 + 0.1 = 0.3'''
+Luckily for us, Python 2.7 and later, "Python displays a value based on the
+shortest decimal fraction that rounds correctly back to the true binary value";
+so for us it displays:   0.2 + 0.1 = 0.3'''
 
+# 2019-04-16	Edited to reflect conventionally preferred style, as at:
+# https://www.python.org/dev/peps/pep-0008/
