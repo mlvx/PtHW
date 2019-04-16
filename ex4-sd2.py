@@ -45,5 +45,5 @@ Luckily for us, Python 2.7 and later, "Python displays a value based on the
 shortest decimal fraction that rounds correctly back to the true binary value";
 so for us it displays:   0.2 + 0.1 = 0.3'''
 
-# 2019-04-16	Edited to reflect conventionally preferred style, as at:
+# 2019-04-16    Edited to reflect conventionally preferred style, as at:
 # https://www.python.org/dev/peps/pep-0008/

@@ -39,10 +39,10 @@ print "Is it less or equal?", 5 <= -2
 # See ex3-sd3-weight.py.
 
 # SD4.  Notice the math seems "wrong" -- no fractions, only whole numbers.
-#	Research "floating point" numbers.
+#        Research "floating point" numbers.
 
 # SD5.  Rewrite ex3.py to use floating point numbesr so it's more accurate
-#	(hint: 20.0 is floating point).
+#        (hint: 20.0 is floating point).
 # Having just done ex5-sd3 on string format conversions, I'm eager to try the
 # %f and %F floating-point format specificers.  Hmm, having trouble making 
 # it work.  Here's some practice.
@@ -52,5 +52,5 @@ life = 9.0
 print "\nWhat is %f divided by %F?  It is %f." % (meaning, 
     life, meaning / life)
 
-# 2019-04-16	Edited to reflect conventionally preferred style, as at:
+# 2019-04-16    Edited to reflect conventionally preferred style, as at:
 # https://www.python.org/dev/peps/pep-0008/

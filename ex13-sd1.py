@@ -8,7 +8,7 @@ print "Your second variable is:", second
 print "Your third variable is:", third 
 
 # Study Drills
-# SD1:	Try giving fewer than three arguments when running, and explain the 
+# SD1:  Try giving fewer than three arguments when running, and explain the 
 # resulting error.
 
 print """

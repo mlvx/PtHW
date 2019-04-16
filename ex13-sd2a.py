@@ -8,7 +8,7 @@
 # print "Your third variable is:", third 
 
 # Study Drills
-# SD2, part A:	Write a script that has fewer arguments (than the orginal script).
+# SD2, part A:  Write a script that has fewer arguments (than the orginal script).
 
 from sys import argv
 

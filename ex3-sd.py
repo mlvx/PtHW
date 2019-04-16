@@ -37,7 +37,7 @@ print "Is it less or equal?", 5 <= -2
 # See ex3-sd3-weight.py.
 
 # SD4.  Notice the math seems "wrong" -- no fractions, only whole numbers.  
-#	Research "floating point" numbers.
+#        Research "floating point" numbers.
 # This ended up being more interesting than I'd expected.  It's an issue with
 # binary arithmetic.  Just as in decimal, you can't really represent 1/3
 # accurately (0.3 repeating), in binary you can't rep decimal 1/10 accurately.
@@ -46,8 +46,8 @@ print "Is it less or equal?", 5 <= -2
 # https://docs.python.org/2/tutorial/floatingpoint.html
 
 # SD5.  Rewrite ex3.py to use floating point numbesr so it's more accurate 
-#	(hint: 20.0 is floating point).
+#        (hint: 20.0 is floating point).
 # See ex3-sd5-floating.py.
 
-# 2019-04-16	Edited to reflect conventionally preferred style, as at:
+# 2019-04-16    Edited to reflect conventionally preferred style, as at:
 # https://www.python.org/dev/peps/pep-0008/

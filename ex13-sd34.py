@@ -8,6 +8,6 @@ print "Your second variable is:", second
 print "Your third variable is:", third 
 
 # Study Drills
-# SD3:	
+# SD3:  
 
-# SD4:
+# SD4:  

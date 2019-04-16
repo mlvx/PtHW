@@ -21,9 +21,9 @@ print "We need to put about", average_passengers_per_car, "in each car."
 # Study Drills
 
 # Non-numbered SD (as of 2019-04-16, thisfile renamed from 'ex4-sd.py'
-#	to 'ex4-sd0.py' to match what's in other file comments (specifically
-#	ex4-sd1.py; there may be others):
-#	When Shaw first wrote this program, there was a typo.  Errmsg was:
+#    to 'ex4-sd0.py' to match what's in other file comments (specifically
+#    ex4-sd1.py; there may be others):
+#    When Shaw first wrote this program, there was a typo.  Errmsg was:
 # Traceback (most recent call last):
 #        File "ex4.py", line 8, in <module>
 #          average_passengers_per_car = car_pool_capacity / passenger
@@ -65,10 +65,10 @@ print "We need to put about", average_passengers_per_car, "in each car."
 # SD4:  Name of "=" char; and  =  assigns a label to a var.  No separate file.
 # SD5:  Name of "_" char.  No separate file.
 # SD6:  Use Python interactively as a calculator.  Use variable names to do
-#	calculations.  Popular variable names are also i, x, and j.
+#        calculations.  Popular variable names are also i, x, and j.
 # Done.
 
-# 2019-04-16	Edited to reflect conventionally preferred style, as at:
+# 2019-04-16    Edited to reflect conventionally preferred style, as at:
 # https://www.python.org/dev/peps/pep-0008/
 # And, fixed some typos I noticed.  And changed the name of this file to
 # ex4-sd0.py.  (Which is what I'd thought I'd named it.)

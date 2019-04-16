@@ -52,12 +52,12 @@ Um... Why?  Ok, I'll do it.
 Ok, that was more interesting than I expected.
 
 SD4.  Make sure you know what "=" is called (equals), and that it's
-	making names for things.
+      making names for things.
 Ok.  (Not making a new file for that.)
 
 SD5.  Remember that "_" is an underscore character.
 Ok.  (Not making a new file for that either.)
 '''
 
-# 2019-04-16	Edited to reflect conventionally preferred style, as at:
+# 2019-04-16    Edited to reflect conventionally preferred style, as at:
 # https://www.python.org/dev/peps/pep-0008/

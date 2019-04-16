@@ -32,7 +32,7 @@ print fat_cat
 # more conventionally.
 
 # Variables to print
-x = "\n"	# These vars must precede lines that call it.
+x = "\n" # These vars must precede lines that call it.
 s1 = "There\'s a difference between a" + x + "%s" + x + "%r"
 s2 = "\"slash\" character (/) and a"
 s3 = "\'backslash\' character (\\)."
