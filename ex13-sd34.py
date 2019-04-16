@@ -21,4 +21,7 @@ print "I bet you'd like some", pie_flavor, "pie topped with some" , \
     icecream_flavor, "ice cream, wouldn't you?"
 print "Sorry.  Fresh out."
 
-# SD4:  
+# SD4:  Remember that *modules* give you *features.
+#       Modules.  Modules.  Remember this, because
+#       we'll need it later.
+# Ok, I'll try to remember.  (Not starting a file.)
