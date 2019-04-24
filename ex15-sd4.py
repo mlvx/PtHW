@@ -23,5 +23,5 @@ print txt.read()
 #       for programmers to confuse you with vast extensive knowledge.
 # SD4:  Get rid of the part from lines 10-15 where you use  raw_input  and
 #       try the script without them.
-# Done.  It runs fine, but uses only the variables populated with argv when
-# first running the script.
+# Done (commented out).  The script runs fine, but uses only the variables
+# populated with argv when first running the script.
