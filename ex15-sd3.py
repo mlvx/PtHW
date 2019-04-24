@@ -15,10 +15,9 @@ txt_again = open(file_again)
 print txt_again.read()
 
 # Study Drills
-# SD1:  Above each line, write out in English what it does.
-# SD2:  If you are not sure, ask someone for help or search online.  Often,
-#       searching for "python FOO" will find answer for what that FOO does
-#       in Python.  Try searching for "python open".
+# SD1 (comment each line), SD2 (research online documentation):
+# See file ex15-sd12.py.
+#
 # SD3:  We've used the label "commands", but these are usually called 
 #       "functions" and "methods".  Search online to see what other people
 #       do to define these.  Do not fret if it is confusing -- it is normal

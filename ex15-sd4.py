@@ -7,12 +7,12 @@ txt = open(filename)
 print "Here's your file %r:" % filename
 print txt.read()
 
-print "Type the filename again:"
-file_again = raw_input("> ")
-
-txt_again = open(file_again)
-
-print txt_again.read()
+# print "Type the filename again:"
+# file_again = raw_input("> ")
+# 
+# txt_again = open(file_again)
+# 
+# print txt_again.read()
 
 # Study Drills
 # SD1:  Above each line, write out in English what it does.
@@ -25,6 +25,9 @@ print txt_again.read()
 #       for programmers to confuse you with vast extensive knowledge.
 # SD4:  Get rid of the part from lines 10-15 where you use  raw_input  and
 #       try the script without them.
+
+
+
 # SD5:  Use only  raw_input  and try the script that way.  Think of why one
 #       way of getting the filename would be better than another.
 # SD6:  Run  pydoc file  and scroll down until you see the  read()  command
