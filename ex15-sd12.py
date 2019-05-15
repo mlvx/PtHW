@@ -10,7 +10,7 @@ script, filename = argv
 # Initializes a var., 'txt', and sets its value to be the "file object" that
 # results when 'ex15_sample.txt' (because that's what should be in the
 # 'filename' var., as set by argv when script launched) is opened.
-txt = open(filename, rt)
+txt = open(filename, "rt")
 
 # Pretty self-explanatory.  Prints a message and formats the contents of the
 # 'filename' var with quotation marks, in raw/rep format style.
