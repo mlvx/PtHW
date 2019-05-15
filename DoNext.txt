@@ -1,3 +1,3 @@
 2019-04-22T14:25-07:00
-Done: ex15-sd12
-Do next: ex15-sd3
+Done: ex15-sd5
+Do next: ex15-sd67
