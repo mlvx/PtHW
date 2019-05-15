@@ -15,23 +15,9 @@ txt_again = open(file_again)
 print txt_again.read()
 
 # Study Drills
-# SD1:  Above each line, write out in English what it does.
-# SD2:  If you are not sure, ask someone for help or search online.  Often,
-#       searching for "python FOO" will find answer for what that FOO does
-#       in Python.  Try searching for "python open".
-# SD3:  We've used the label "commands", but these are usually called 
-#       "functions" and "methods".  Search online to see what other people
-#       do to define these.  Do not fret if it is confusing -- it is normal
-#       for programmers to confuse you with vast extensive knowledge.
-# SD4:  Get rid of the part from lines 10-15 where you use  raw_input  and
-#       try the script without them.
-# SD5:  Use only  raw_input  and try the script that way.  Think of why one
-#       way of getting the filename would be better than another.
 # SD6:  Run  pydoc file  and scroll down until you see the  read()  command
 #       (method / function).  See all the other ones you can use?  Skip the
 #       ones that have  __  (two underscores) in front because those are
 #       junk.  [?]  Try some of the other commands (methods / functions).
 # SD7:  Start python again and use  open  from the prompt.  Notice how you
 #       can open files and run  read  on them right there?
-# SD8:  Have your script also do a  close()  on the  txt  and  txt_again
-#       variables.  It's important to close files when done with them.
