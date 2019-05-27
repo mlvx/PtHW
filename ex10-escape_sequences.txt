@@ -1,0 +1,24 @@
+# Python 2:  Escape Sequences
+
+Esc. Seq.	Output
+=========	======
+\\		Backslash (\)
+\'		Single-quotemark (')
+\"		Double-quotemark (")
+---------	------
+\a		ASCII bell (BEL)
+\b		ASCII backspace (BS)
+\f		ASCII formfeed (FF)
+---------	------
+\n		ASCII linefeed / newline (LF)
+\N{name}	Character named in Unicode database
+\r		ASCII carriage return (Windows "enter")
+---------	------
+\t		ASCII horizontal tab (TAB)
+\uxxxx		Unicode char., 16-bit hexadecimal
+\Uxxxxxxxx	Unicode char., 32-bit hexadecimal
+---------	------
+\v		ASCII vertical tab (VT)
+\oxx		Character with octal value "xx"
+\xhh		Character with hexadecimal value "hh"
+

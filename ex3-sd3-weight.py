@@ -4,5 +4,9 @@
 print "\nCurrent weight? "; curr_weight = input()
 print "Goal weight? "; goal_weight = input()
 shed_weight = curr_weight - goal_weight
-print "\nYou need to shed", shed_weight, "units of weight.  That's", round( shed_weight * 1.0 / curr_weight * 100 , 1) , "percent of your current weight."
+print "\nYou need to shed", shed_weight, "units of weight.  That's", round(
+    shed_weight * 1.0 / curr_weight * 100 , 1) , \
+    "percent of your current weight."
 
+# 2019-04-16    Edited to reflect conventionally preferred style, as at:
+# https://www.python.org/dev/peps/pep-0008/
